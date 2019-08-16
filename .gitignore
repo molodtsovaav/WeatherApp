@@ -1,0 +1,8 @@
+*.txt
+*.db
+.idea/
+.ruby-version
+.ruby-gemset
+manifest.yml
+*.sql
+
