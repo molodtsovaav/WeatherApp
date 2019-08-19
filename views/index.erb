@@ -1,6 +1,22 @@
-<h2>Погода сегодня: </h2>
 
-<p>Погода в <%= @city_name %> сегодня:</p>
-<p>Температура: от <%= @min_temp %> до <%= @max_temp %> °C
-<p>Ветер до <%= @max_wind %> м/с</p>
-<p>Облачность: <%= @clouds %></p>
+<h2>Погода в <%= @city_name %> сегодня: </h2>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Температура</th>
+    <th scope="col">Ветер</th>
+    <th scope="col">Облачность</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr >
+</th>
+    <td >от <%= @min_temp %> до <%= @max_temp %> °C</td>
+    <td>до <%= @max_wind %> м/с</td>
+    <td><%= @clouds %></td>
+  </tr>
+
+
+  </tbody>
+</table>
+

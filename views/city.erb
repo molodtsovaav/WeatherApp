@@ -1,0 +1,13 @@
+<h2>Ваш город</h2>
+<p>
+<form action="/city" method="POST" >
+  <select name="city">
+    <% @cities.each do |name, id| %>
+      <option value="<%=id %>"><%=name %></option>
+    <% end %>
+  </select>
+  <br />
+  <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
+
+</p>
